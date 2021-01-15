@@ -55,3 +55,42 @@ var fruta = {nome:"maça" , cor:"vermelha"}
 //console.log(fruta.cor);
 console.log(fruta);
 
+
+/** Condicionais */
+
+var idade = prompt("Qual sua idade?");
+
+if (idade >= 18){
+    alert("Maior de idade!");
+}else{
+    alert("Menor de idade!")
+}
+
+
+/** Laçõs de repetição */
+
+/** For */
+ 
+var count;
+for (count = 1; count <= 5; count++){
+    console.log(count);
+}
+
+
+/** while */
+
+var count = 1;
+while (count <= 5){
+    console.log(count);
+    count++;
+}
+
+
+/** Datas */
+
+var d = new Date();
+console.log(d);
+console.log(d.getDay());
+console.log(d.getHours());
+console.log(d.getMinutes());
+

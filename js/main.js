@@ -1,9 +1,53 @@
+/** Datas */
+
+var d = new Date();
+console.log(d);
+console.log(d.getDay());
+console.log(d.getHours());
+console.log(d.getMinutes());
+
+
+/** Laçõs de repetição */
+
+/** For */
+/** 
+var count;
+for (count = 1; count <= 5; count++){
+    console.log(count);
+}
+*/
+
+/** while */
+/** 
+var count = 1;
+while (count <= 5){
+    console.log(count);
+    count++;
+}
+*/
+
+
+
+/** Condicionais */
+/*
+var idade = prompt("Qual sua idade?");
+
+if (idade >= 18){
+    alert("Maior de idade!");
+}else{
+    alert("Menor de idade!")
+}
+*/
+
+
 /** Dicionário */
 
+/** 
 var frutas = [{nome:"maça", cor:"vermelha"}, {nome:"uva", cor:"roxa"}]
 //console.log(frutas);
 console.log(frutas[0].nome);
 console.log(frutas[0].cor);
+*/
 
 /** 
 var fruta = {nome:"maça" , cor:"vermelha"}

@@ -1,11 +1,44 @@
-/** Datas */
+/** Funções */
+/** 
+var validar;
+function validaIdade(idade){
+    if (idade >= 18){
+        validar = "Você é maior de idade!"
+    }else{
+        validar = "Você é menor de idade!"
+    }
+    return validar;
+}
 
+var idade = prompt("Qual a sua idade?");
+validaIdade(idade)
+alert(validar);
+*/
+
+/** 
+function setReplace(nome, sobreNome, novoSobrenome){
+    return nome.replace(sobreNome, novoSobrenome)
+}
+
+alert(setReplace("Diogo Barbosa", "Barbosa", "Barros"));
+*/
+
+/** function soma(n1, n2){
+    return n1 + n2;
+}
+
+alert(soma(5 ,10));
+*/
+
+
+/** Datas */
+/** 
 var d = new Date();
 console.log(d);
 console.log(d.getDay());
 console.log(d.getHours());
 console.log(d.getMinutes());
-
+*/
 
 /** Laçõs de repetição */
 

@@ -1,3 +1,12 @@
+/** Manipulando elementos */
+
+function clicou(){
+    //alert("Obrigado por clicar!");
+    document.getElementById("clicou-text").innerHTML = "Obrigado por clicar";
+}
+
+
+
 /** Funções */
 /** 
 var validar;

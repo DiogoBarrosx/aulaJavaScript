@@ -127,3 +127,45 @@ alert(setReplace("Diogo Barbosa", "Barbosa", "Barros"));
 alert(soma(5 ,10));
 
 
+/** Manipulando elementos */
+
+/** executa algo ao colocar o sobre o elemento */
+function clicou(){
+    //alert("Obrigado por clicar!");
+    document.getElementById("clicou-text").innerHTML = "Obrigado por clicar";
+}
+function textMouse(){
+    alert("Você passou o mouse sobre o texto!");
+}
+
+/** muda o elemento especifico ao colocar e retirar o mouse sobre ele */
+function trocar(){
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!"
+}
+function voltar(){
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui!"
+}
+
+/** muda o elemento qualquer ao colocar e retirar o mouse sobre ele */
+function trocar2(elemento){
+    elemento.innerHTML = "Com o mouse!"
+}
+function voltar2(elemento){
+    elemento.innerHTML = "Sem o mouse!"
+}
+
+/** executa a função ao carregar a página */
+function load(){
+    alert("Página carregada!");
+}
+
+/** pega os valores de um seletor */
+function funcChange(elemento){
+    console.log(elemento.value);
+}
+
+/** redirecionar através de um link */
+function redirecionar1(){
+    //window.open("https:\\google.com.br");
+    window.location.href="https:\\google.com.br";
+}
